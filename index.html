@@ -1,33 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Aussie Journey</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="./img/Imagem do WhatsApp de 2024-10-10 à(s) 08.40.47_10323d29.jpg" alt="Aussie Journey" class="rounded-end" width="150" height="150" srcset="">
-        <p>Me chamo Mariana</p>
-        <h1>Projeto interdiciplinar de intercâmbio</h1>
+        <img src="./img/Imagem do WhatsApp de 2024-10-10 à(s) 08.40.47_10323d29.jpg" alt="Aussie Journey" class="rounded-end" width="180" height="160"
+            srcset="">
+        <p class="lead">Me chamo Mariana</p>
+        <h1>Trabalho interdisciplinar de intercâmbio</h1>
         <p>A proposta do projeto visa promover o programa de aprendizado "Ganhando o Mundo" e apresentar as 
             experiências vivenciadas no país de destino, a Austrália.</p>
-        
+
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Diferenças e similariedades socioculturais</h5>
-                    <p class="card-text">Durante um intercâmbio entre Brasil e Austrália, as diferenças e semelhanças culturais tornam-se evidentes e enriquecedoras para os participantes durante o periodo de intercâmbio</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/img(2).jpg" class="card-img-top" alt="Imagem do projeto de intercâmbio">
+                    <div class="card-body">
+                        <h5 class="card-title">Diferenças e similariedade socioculturias</h5>
+                        <p class="card-text">Esse projeto irá apresentar as Diferenças socioculturias vivenciadas no periodo de intercambio
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Clique
+                            aqui</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/img(3).jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Programa de intercâmbio Ganhando o Mundo</h5>
+                        <p class="card-text">O objetivo deste projeto é promover o programa de intercâmbio "Ganhando o Mundo",
+                             destacando suas oportunidades e benefícios para os participantes. Através de uma abordagem abrangente, 
+                             buscamos informar os jovens sobre as experiências enriquecedoras que o programa oferece, como o desenvolvimento
+                            de habilidades interculturais, a prática de idiomas e o crescimento pessoal e profissional. Com eventos,
+                             palestras e campanhas nas redes sociais, queremos inspirar mais pessoas a embarcar nessa jornada transformadora,
+                              mostrando que a troca cultural é uma porta aberta para o futuro.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Clique aqui</button>
+                    </div>
+                </div>
             </div>
 
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meio ambiente, sociedade e econômia
+                        </h5>
+                        <p class="card-text">Este projeto tem como objetivo divulgar as diferença entre
+                             os países por meio de temas sociais.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Clique aqui</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Diferenças e similariedade socioculturias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de habilidades em uma seção
+                        flexível (.livros). Cada hábito é destacado em seu próprio contêiner (.livro), mostrando uma
+                        imagem da capa, detalhes dos temas e um link de compra. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                    <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+<!-- Modal 2 -->
+<div class="modal" id="modal1" tabindex="-2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Programa de intercâmbio Ganhando o Mundo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
+                   dos meu hobbies que hoje são hábitos e como executar cada um deles.</p>
+                <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                    enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                    disposição dos elementos.</p>
+                <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                    principal (.container) que apresenta o propósito do site e a coleção de habilidades em uma seção
+                    flexível (.livros). Cada hábito é destacado em seu próprio contêiner (.livro), mostrando uma
+                    imagem da capa, detalhes dos temas e um link de compra. O design responsivo é garantido pelo
+                    uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                    tela.</p>
+                <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                    fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                    O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                    esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                    experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                    a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
+            </div>
+            <div class="modal-footer">
+                <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal1" tabindex="-3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Meio ambiente, sociedade e econômia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
+                   dos meu hobbies que hoje são hábitos e como executar cada um deles.</p>
+                <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                    enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                    disposição dos elementos.</p>
+                <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                    principal (.container) que apresenta o propósito do site e a coleção de habilidades em uma seção
+                    flexível (.livros). Cada hábito é destacado em seu próprio contêiner (.livro), mostrando uma
+                    imagem da capa, detalhes dos temas e um link de compra. O design responsivo é garantido pelo
+                    uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                    tela.</p>
+                <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                    fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                    O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                    esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                    experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                    a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
+            </div>
+            <div class="modal-footer">
+                <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+            </div>
+        </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
